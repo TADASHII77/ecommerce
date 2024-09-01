@@ -69,6 +69,12 @@ No Results Handling: If no items match the query, a message stating "Items not f
 
 ![Screenshot 2024-09-02 012123](https://github.com/user-attachments/assets/98c3879a-752f-4212-885e-abfbbe2dbdfa)
 
+![Screenshot 2024-09-02 012139](https://github.com/user-attachments/assets/1599e12a-fd86-40fb-a84b-d8c407f5ab8c)
+
+
+![Screenshot 2024-09-02 012156](https://github.com/user-attachments/assets/31ec5331-9b92-4718-8bc6-71c9199e4e0d)
+
+![Screenshot 2024-09-02 012211](https://github.com/user-attachments/assets/51e4c888-e601-48ee-871d-d9c4bdc4f5cb)
 
 
 Files and Folders
