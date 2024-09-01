@@ -1,0 +1,164 @@
+
+
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensures the header stays on top of other content */
+}
+
+.tyreplex-headline {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #333;
+    transition: color 0.3s, font-weight 0.3s;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #333;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.bg-body-tertiary {
+    background-color: #f8f9fa;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-item a {
+    text-decoration: none;
+}
+
+.nav-icon {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.nav-icon:hover {
+    color: crimson;
+
+}
+h1{
+    text-transform: uppercase;
+}
+/*Header css*/
+
+/* body */
+#title{
+    text-transform: uppercase;
+    line-height: calc(var(--font-heading-line-height-scale)* calc(var(--font-heading-scale)* 60px));
+    font-style: normal;
+    font-family: "Archivo Narrow", sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    font-family: "Archivo Narrow", sans-serif;
+   font-size: 2.5rem;
+   font-weight: var(--font-body-bold-weight, 600);
+    color: inherit;
+}
+
+#search {
+    font-family: "Archivo Narrow", sans-serif;
+    font-size: calc(var(--font-heading-scale)* 52px);
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    width: 450px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+#search:focus {
+    border-color: black;
+    outline: none;
+    box-shadow: 0 0 5px #1402064f;
+}
+/* body */
+ /* Styles for dropdown container */
+ .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    border: 1px solid #ddd;
+    z-index: 1;
+    padding: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for links in the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Show the dropdown when hovering over the parent nav item */
+.nav-item:hover .dropdown-content {
+    display: block;
+}
+
+/* Additional styling for the dropdown items */
+.dropdown-content a:hover {
+    background-color: grey;
+    color: white;
+}
+
+.nav-item {
+    position: relative;
+}
+
+#image {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.cloths {
+    flex-basis: calc(25% - 20px);
+    text-align: center;
+}
+
+.cloths img {
+    height: 250px; /* Adjust the height of the image */
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px; /* Space between the image and paragraph */
+}
+
+.cloths p {
+    font-size: 16px; /* Adjust the font size for readability */
+    color: #333; /* Dark grey text color */
+    line-height: 1.5; /* Space between lines of text */
+    font-weight: 500; /* Semi-bold text */
+    margin: 0; /* Removes default margin */
+}
+
+
+.paragraph{
+    height: 200px;
+    width:200px;
+    font-size: large;
+    color: #333;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.hide{
+    display: none;
+}
