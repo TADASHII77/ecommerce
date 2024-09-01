@@ -67,6 +67,8 @@ Search Functionality: Type more than three letters in the search input field to 
 Dynamic Results: The results will dynamically update based on your input.
 No Results Handling: If no items match the query, a message stating "Items not found" will be displayed.
 
+![Screenshot 2024-09-02 012123](https://github.com/user-attachments/assets/98c3879a-752f-4212-885e-abfbbe2dbdfa)
+
 
 
 Files and Folders
