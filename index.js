@@ -21,11 +21,8 @@ app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-// Function to fetch categories from the database
-
-
 app.get('/', async (req, res) => {
- res.render("index.ejs");
+    res.render("index.ejs");
 });
 
 app.get("/search", async (req, res) => {
@@ -40,9 +37,11 @@ app.get("/search", async (req, res) => {
             `SELECT c.category_name, i.image_url
              FROM categories c
              JOIN imageurls i ON c.id = i.category_id
-             WHERE c.category_name ILIKE $1`,
-            [`%${query}%`]
+             WHERE c.category_name % $1
+             ORDER BY SIMILARITY(c.category_name, $1) DESC`,
+            [query]
         );
+        
         console.log(result.rows);
         res.json(result.rows);
     } catch (error) {
