@@ -17,6 +17,9 @@
     image_url VARCHAR(255) NOT NULL,
     FOREIGN KEY (category_id) REFERENCES Categories(id)
 );
+--enabling pg_trgm extension
+
+CREATE EXTENSION IF NOT EXISTS pg_trgm;
 
 ---Now insert some data
 
