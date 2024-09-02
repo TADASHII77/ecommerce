@@ -41,7 +41,7 @@ Font Awesome: Icon toolkit for implementing navigation icons.
 
 
 
-#Installation
+# Installation
 
 1. Clone the repository to your local machine:
 
@@ -69,7 +69,7 @@ const db = new pg.Client({
 --node index.js
 --Open your browser and navigate to http://localhost:3000.
 
-Usage
+# Usage
 Search Functionality: Type more than three letters in the search input field to display items related to the entered category name.
 Dynamic Results: The results will dynamically update based on your input.
 No Results Handling: If no items match the query, a message stating "Items not found" will be displayed.
@@ -87,7 +87,7 @@ https://github.com/user-attachments/assets/d41371e1-1256-4d30-8765-cf5601039c07
 ![Screenshot 2024-09-02 012211](https://github.com/user-attachments/assets/51e4c888-e601-48ee-871d-d9c4bdc4f5cb)
 
 
-Files and Folders
+ # Files and Folders
 public/assets/images/: Contains image files used in the application.
 
 public/styles/style.css: Custom CSS file for additional styling.
